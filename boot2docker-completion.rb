@@ -1,7 +1,8 @@
 class Boot2dockerCompletion < Formula
   homepage "https://github.com/alexandregz/boot2docker-completion"
-  url "https://raw.githubusercontent.com/alexandregz/boot2docker-completion/master/boot2docker-completion.bash"
-  sha256 "c2a33d54b310bb705ff1d58254cc57b58a17e8d323ebadf34d9e478fb76beb45"
+  version "1.0"
+  url "https://github.com/alexandregz/boot2docker-completion/archive/1.0.tar.gz"
+  sha256 "51d162ed4f890f9d702a215d11a2564ec44baebc38ede49f75f9b36521d856fb
 
   def install
     bash_completion.install "boot2docker-completion.bash"
